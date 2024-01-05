@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classifieds</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Classifieds</h1>
+    </header>
+
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Latest Listings</h2>
+                <ul id="classifiedListings" class="list-group">
+                    <!-- Sample listing item -->
+                    <li class="list-group-item">
+                        <h3>Item Title</h3>
+                        <p>Description of the item. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Price: $100</p>
+                        <button class="btn btn-primary" onclick="viewDetails()">View Details</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <h2>Search</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="searchInput" placeholder="Search...">
+                    </div>
+                    <button type="button" class="btn btn-success" onclick="searchListings()">Search</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+        function viewDetails() {
+            alert("View details functionality will be implemented here.");
+        }
+
+        function searchListings() {
+            alert("Search functionality will be implemented here.");
+        }
+    </script>
+</body>
+</html>
